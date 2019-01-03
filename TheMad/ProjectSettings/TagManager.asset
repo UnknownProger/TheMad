@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 3395038453
+    locked: 0
+  - name: Bush
+    uniqueID: 1767666243
+    locked: 0
+  - name: Player
+    uniqueID: 3469305205
+    locked: 0
+  - name: LargeTrees
+    uniqueID: 1862777349
+    locked: 0

@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _items:
   - _key: Page_MainMenu
-    _value: {fileID: 1898588859083781392, guid: eaedcb425927faf41b76482ad82901d6,
+    _value: {fileID: 8381999977913240225, guid: caac5110a85a9bb448dcc32fcacfc490,
       type: 3}
-  - _key: Page_Options
-    _value: {fileID: 1898588859083781392, guid: eaedcb425927faf41b76482ad82901d6,
+  - _key: Page_TitleSettings
+    _value: {fileID: 6069659805257478387, guid: f26c2d8d99ef11445abf1453f8941440,
       type: 3}
+  _defaultKey: Page_MainMenu

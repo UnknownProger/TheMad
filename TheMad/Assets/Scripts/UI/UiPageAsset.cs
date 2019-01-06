@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace TheMad
+namespace TheMad.Ui
 {
     [CreateAssetMenu(fileName = "UiPageAsset", menuName = "TheMad/UiPageAsset")]
     public class UiPageAsset : ScriptableObject
@@ -11,12 +10,18 @@ namespace TheMad
         #region Fields
 
         [SerializeField]
-        List<Item> _items = new List<Item>();
+        private List<Item> _items = new List<Item>();
+
+        [Space]
+
+        [SerializeField]
+        private string _defaultKey;
 
         #endregion Fields
         #region Properties
 
         public List<Item> Items => _items;
+        public string DefaultKey => _defaultKey;
 
         #endregion Properties
 

@@ -6,7 +6,6 @@ namespace TheMad
 {
     public static partial class DataStorage
     {
-
         private static List<RegisteredMonoBehavour> _registeredMonoBehavours = new List<RegisteredMonoBehavour>();
 
         public static void Register<T>(T obj) where T : RegisteredMonoBehavour

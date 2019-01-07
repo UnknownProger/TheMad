@@ -19,7 +19,7 @@ namespace TheMad
         [SerializeField]
         private Button _exitButton;
 
-        private void Awake()
+        private new void Awake()
         {
             base.Awake();
 

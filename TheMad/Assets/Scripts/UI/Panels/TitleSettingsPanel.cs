@@ -14,7 +14,7 @@ namespace TheMad
         [SerializeField]
         private Button _applyButton;
 
-        private void Awake()
+        private new void Awake()
         {
             base.Awake();
 

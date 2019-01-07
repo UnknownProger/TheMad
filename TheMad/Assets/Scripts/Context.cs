@@ -13,6 +13,8 @@ namespace TheMad.Core
         {
             base.Register(this);
 
+            Localization.LoadLocalization("Rus");
+
             var systemsContainer = new GameObject("Systems").transform;
             systemsContainer.transform.SetParent(transform);
 
